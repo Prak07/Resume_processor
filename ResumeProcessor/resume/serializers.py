@@ -4,4 +4,4 @@ from .models import Candidate
 class CandidateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Candidate
-        fields = "__all__"
+        fields = ["first_name","email","mobile_number"]
