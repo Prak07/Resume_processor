@@ -89,12 +89,6 @@ Upload a resume in PDF or DOCX format and extract the candidate's name, email, a
 }
 ```
 
-### Example Request (using cURL):
-
-```bash
-curl -X POST -F "resume=@path_to_resume/resume.pdf" http://127.0.0.1:8000/api/extract_resume/
-```
-
 ## Testing the API
 
 You can test the API using cURL or Postman. Here's an example of a cURL request:
